@@ -1,0 +1,39 @@
+/* 
+Author: Zack Cline
+Date: 11/3/2023
+File name: styles.css
+*/
+
+/* css reset */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body, header, nav, main, footer, h1, div, img, ul {
+	margin:0;
+	padding:0;
+	border:0;
+}
+header {
+	color: #AF0003;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	margin-bottom: 10%;
+	background-image: url("../Images/snow-7634083_1280.jpg");
+
+}
+
+body {
+	color: white;
+	
+}
+
+#presents h3 {
+	padding: 10px 10px 10px 10px;
+	background-color: #9B030699;
+	text-align: center;
+	margin-top: 20%;
+}
+footer {
+	padding: 20px 0 20px 0;
+	text-align: center; 
+}

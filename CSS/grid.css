@@ -1,0 +1,92 @@
+/* css document */ 
+body {
+	background-image: url("../Images/warm-and-cozy-1975215_1920.jpg")
+
+}
+
+
+#container {
+	
+	width: 100%;
+	min-height: 500px; 
+}
+
+#presents {
+ display: grid;
+	width: 100%; 
+	grid-template-columns: 29% 29% 29%;
+	grid-template-areas:
+		"it1 it2 it3"
+		"it4 ad  it5"
+		"it6 it7 it8";
+	grid-gap: 2%;
+	justify-content: center;
+	
+}
+
+#item1 {
+	grid-area:it1;
+	
+	min-height: 200px;
+	background-image: url("../Images/stand-2053607_1920.jpg");
+	background-size: cover;
+	
+}
+#item2 {
+	grid-area:it2;
+	Background-color: gold;
+	min-height: 200px;
+	background-image: url("../Images/TrumpetCustomVarious.webp");
+	background-size: cover;
+	
+}
+#item3 {
+	grid-area:it3;
+	Background-color: Red;
+	min-height: 200px;
+	background-image: url("../Images/battleship-2673929_1280.jpg");
+	background-size: cover;
+}
+#item4 {
+	grid-area:it4;
+	Background-color: gold;
+	min-height: 200px;
+	background-image:url("../Images/dollars-499481_1280.jpg");
+	background-size: contain;
+}
+#ad {
+	grid-area:ad;
+	Background-color: red;
+	min-height: 200px;
+	
+}
+#item5 {
+	grid-area:it5;
+	Background-color: gold;
+	min-height: 200px;
+	background-image: url("../Images/cake-4398523_1920.jpg");
+	background-size: cover;
+}
+#item6 {
+	grid-area:it6;
+	Background-color: red;
+	min-height: 200px;
+	background-image:url("../Images/apple-606761_1280.jpg");
+	background-size: cover;
+}
+#item7 {
+	grid-area:it7;
+	Background-color: gold;
+	min-height: 200px;
+	background-image: url("../Images/jump-2731641_1280.jpg");
+	background-size: cover;
+}
+#item8 {
+	grid-area:it8;
+	Background-color: red;
+	min-height: 200px;
+	background-image:url("../Images/migration-3129340_1280.jpg");
+	background-size: cover;
+}
+
+
